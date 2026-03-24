@@ -1,0 +1,19 @@
+{
+  "documents": [
+    {
+      "doc_id": "rag_intro",
+      "text": "RAG combines retrieval and generation to answer questions grounded in external knowledge.",
+      "metadata": {"topic": "rag"}
+    },
+    {
+      "doc_id": "chunking_note",
+      "text": "Chunk size and overlap affect recall, latency, and context quality in retrieval systems.",
+      "metadata": {"topic": "retrieval"}
+    },
+    {
+      "doc_id": "deployment_note",
+      "text": "For lightweight demos, you can start with in-memory vector stores before switching to Chroma for persistence.",
+      "metadata": {"topic": "deployment"}
+    }
+  ]
+}
